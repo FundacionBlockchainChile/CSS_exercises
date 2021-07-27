@@ -1,0 +1,150 @@
+* {
+  /* outline: 1px dotted red; */
+  margin: 0;
+}
+
+body {
+  width: 970px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_container {
+  background: linear-gradient(#36242A, #6F5964, #36242A);
+  width: 970px;
+  min-height: 900px;
+  display: inline-block;
+}
+
+header {
+  background-color: #B3B3B3;
+  display: inline-block;
+  width: 100%;
+  min-height: 50px;
+}
+
+header h1 {
+  font-family: 'Sansita Swashed', cursive;
+  display: inline-block;
+  width: 50%;
+  margin-left: 40px;
+}
+
+header h3 {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.top_part {
+  display: inline-block;
+  width: 925px;
+  min-height: 700px;
+  margin: 30px;
+
+}
+
+.left_image {
+  display: inline-block;
+  width: 400px;
+  height: 262px;
+  border: 5px solid #F7F7F7;
+}
+
+.left_image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.rigth_card {
+  display: inline-block;
+  width: 475px;
+  height: 270px;
+  margin-left: 20px;
+  background-color: #F6F2F5;
+  vertical-align: top;
+}
+
+.rigth_card h2 {
+  color: white;
+  padding: 8px;
+  background: linear-gradient(#c9c9c9, #929292, #c9c9c9);
+}
+
+.rigth_card p {
+  padding: 10px;
+}
+
+.rigth_card a {
+  color: black;
+}
+
+.card {
+  margin-top: 20px;
+  margin-right: 15px;
+  display: inline-block;
+  min-height: 500px;
+  width: 290px;
+  vertical-align: top;
+  background-image: linear-gradient(to right, #FFFFFF, #d4d4d4);
+  /* background-color: #FFFFFF; */
+}
+
+.card h3 {
+  color: white;
+  padding: 8px;
+  background: linear-gradient(#c9c9c9, #929292, #c9c9c9);
+}
+
+.card h4 {
+  color: white;
+  padding: 5px;
+  background: linear-gradient(#c9c9c9, #929292, #c9c9c9);
+}
+
+.card img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.icons_div {
+  height: 90px;
+  /* background-color: #36242A; */
+  padding: 20px;
+}
+
+.card a {
+  background-color: #407D61;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  margin: 50px 100px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.icon {
+  height: 38px;
+  width: 38px;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+/* .node {
+  background-image: url(../Trabajo_Portafolio/images/nodejs.png);
+  width: 38px;
+
+} */
