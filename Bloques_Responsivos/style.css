@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px dotted rebeccapurple; */
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* .row {
+  margin: 20px;
+} */
+
+body {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .sm-0 {
+    width: 98%;
+    height: 100px !important;
+  }
+
+  .sm-1 {
+    display: none;
+  }
+
+  .sm-2 {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+
+  .sm-3 {
+    width: 98%;
+    margin-bottom: 15px;
+    height: 140px !important;
+  }
+
+  .sm-4 {
+    width: 91%;
+    /* margin-bottom: 20px; */
+    padding: 15px;
+  }
+
+  body {
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .md-0 {
+    width: 45%;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 200px !important;
+  }
+
+  .md-1 {
+    display: none;
+  }
+
+  .md-2 {
+    width: 95%;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  .md-3 {
+    width: 94%;
+    margin-top: 20px;
+    height: 100px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .lg-1 {
+    width: 20%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .lg-2 {
+    width: 30%;
+    margin-right: 20px;
+    height: 250px !important;
+  }
+
+  .lg-3 {
+    width: 73%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .lg-4 {
+    width: 96.5%;
+    margin-top: 20px;
+  }
+}
+
+#header {
+  height: 150px;
+  background-color: green;
+  /* margin-bottom: 15px; */
+}
+
+#navigation {
+  height: 400px;
+  background-color: blue;
+}
+
+#main_content {
+  background-color: red;
+  min-height: 600px;
+
+}
+
+.subcontents {
+  background-color: yellow;
+  height: 250px;
+}
+
+#advertisement {
+  background-color: rebeccapurple;
+  height: 180px;
+}
