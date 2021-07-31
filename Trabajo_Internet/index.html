@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Trabajo Internet CSS</title>
   </head>
   <body>
     <header>
-      <img src="/images/globe.png" alt="" />
+      <img src="images/globe.png" alt="" />
       <h1>The Inter<span class="cyan">net</span></h1>
       <h2>The World Wide Web</h2>
     </header>
@@ -24,7 +28,7 @@
       <a href="#" class="backg-Orange">MORE RESOURCES</a>
       <div class="advise">
         <h3>Reinvent your career in just 14 weeks</h3>
-        <img src="/images/ninja.png" alt="" />
+        <img src="images/ninja.png" alt="" />
         <a href="#" class="backg-cyan"
           >Learn More <span class="t-20">></span><span class="t-60">></span>></a
         >
@@ -33,51 +37,53 @@
 
     <div class="main-content">
       <div class="top">
+        <i class="fas fa-home"></i>
         <h4>DNS</h4>
-        <img src="/images/phone.png" alt="" />
+        <img src="images/phone.png" alt="" />
         <div class="contact">
           <p>Mon - Fri 9a.m. - 5p.m. (EST)</p>
-          <h4>855.967.3787</h4>
+          <span class="cyan"><h1>855.967.3787</h1></span>
           <p>International +1.617.963.0555</p>
         </div>
       </div>
 
       <div class="bottom">
-        <h4>Clients and Servers</h4>
+        <span class="cyan"><h4>Clients and Servers</h4></span>
         <p>
-          Computers conected to the Web are called <s>clients</s> and
-          <s>servers</s>.
+          Computers conected to the <span class="cyan">Web</span> are called
+          <b>clients</b> and <b>servers</b>.
         </p>
         <ul>
           <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            autem quibusdam voluptates natus fugiat aut temporibus inventore
-            facilis dolorem accusantium, dicta alias iure reiciendis nulla
-            mollitia officiis iste, totam doloribus.
+            <span class="cyan">Clients</span> dolor sit amet consectetur
+            adipisicing elit. Eligendi autem quibusdam voluptates natus fugiat
+            aut temporibus inventore facilis dolorem accusantium, dicta alias
+            iure reiciendis nulla mollitia officiis iste, totam doloribus.
           </li>
           <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            autem quibusdam voluptates natus fugiat aut temporibus inventore
-            facilis dolorem accusantium, dicta alias iure reiciendis nulla
-            mollitia officiis iste, totam doloribus.
+            <span class="cyan">Servers</span> sit amet consectetur adipisicing
+            elit. Eligendi autem quibusdam voluptates natus fugiat aut
+            temporibus inventore facilis dolorem accusantium, dicta alias iure
+            reiciendis nulla mollitia officiis iste, totam doloribus.
           </li>
         </ul>
-        <img src="/images/client_server.jpg" alt="" />
-        <h4>So What Actually Happends?</h4>
+        <img class="client-server" src="images/client_server.jpg" alt="" />
+        <span class="cyan"><h4>So What Actually Happends?</h4></span>
         <ol>
           <li>
-            The browser goes to the DNS server and finds the real address of the
-            server that the website lives on.
+            The browser goes to the <span class="cyan">DNS server</span> DNS
+            server and finds the real address of the
+            <span class="cyan">server</span> that the website lives on.
           </li>
           <li>
-            The browser sends an HTTP request message to the server asking it to
-            send a copy of the website to the client.
+            The browser sends an <span class="cyan">HTTP request</span> message
+            to the server asking it to send a copy of the website to the client.
           </li>
           <li>
             If the server approves the client request, the server sends the
-            client a "200 OK" message, wich means "Permision granted! Here you
-            go!", and then starts sending the website´s files to the browser as
-            a series of small chunks.
+            client a <span class="cyan">"200 OK" message</span> , wich means
+            "Permision granted! Here you go!", and then starts sending the
+            website´s files to the browser as a series of small chunks.
           </li>
           <li>
             The browser assembles the small chunks into a complete website and
@@ -85,19 +91,25 @@
           </li>
         </ol>
         <div class="bottom-img">
-          <img src="/images/html" alt="" />
+          <img class="html-image" src="images/html.png" alt="" />
           <div class="bottom-img-text">
-            <h4>The Big - HTML, CSS, JavaScript</h4>
+            <h4><span class="cyan">The Big - HTML, CSS, JavaScript</span></h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae laboriosam minima id autem inventore iusto adipisci
-              at, esse maiores expedita cumque reprehenderit iste praesentium
-              tenetur atque nobis fuga suscipit sed!
+              at, esse maiores expedita
             </p>
             <p>Learn more about the Big 3 here!</p>
           </div>
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+      integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
