@@ -15,6 +15,8 @@
 
 body {
   margin: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 480px) {
