@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Dojo eCommerce</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand" href="#">Dojo eCommerce</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Shopping Cart</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <!-- LEFT CONTENT -->
+        <div class="col-3 p-3">
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Product Name"
+                aria-label="Product Name"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+            <div class="p-2 bd-highlight"><h3>Categories</h3></div>
+            <div class="p-2 bd-highlight">
+              <ul class="list-group">
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                    btn btn-secondary
+                  "
+                >Tshirts               
+                  <span class="badge bg-primary rounded-pill">25</span>
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                    btn btn-secondary
+                  "
+                >Shoes
+                  
+                  <span class="badge bg-primary rounded-pill">35</span>
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                    btn btn-secondary
+                  "
+                >Cups
+                  
+                  <span class="badge bg-primary rounded-pill">5</span>
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                    btn btn-secondary
+                  "
+                >Fruits
+                  
+                  <span class="badge bg-primary rounded-pill">105</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="p-2 bd-highlight">
+              <button type="button" class="btn btn-outline-primary btn-sm">
+                Show all Categories
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT CONTENT -->
+
+        <div class="col-9 p-3">
+
+          <div class="row">
+            <div class=d-flex">
+              <h1>Tshirt (Page 2)</h1>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                      >Previous</a
+                    >
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="row">
+
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1521498542256-5aeb47ba2b36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1485218126466-34e6392ec754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1621951767587-b24334f11c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1503341733017-1901578f9f1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+              
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1534351842133-0db61b907aac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+              
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1532296075534-cc428d395281?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+              
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1468283268201-f31115a19e2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+              
+              <div class="card mb-4 border-light col-4" >
+                <a class="btn btn-outline-secondary" href="">
+                <img src="https://images.unsplash.com/photo-1495554626159-905646f110da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <p class="card-text">Product Name</p>
+                </div>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+      </footer>
+      
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
