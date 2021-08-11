@@ -1,0 +1,8 @@
+.imgOpacity {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.imgOpacity:hover {
+  opacity: 1.0;
+}

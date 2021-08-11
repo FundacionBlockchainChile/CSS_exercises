@@ -16,69 +16,44 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/signin.css" />
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
 
     <title>Dojo eCommerce</title>
   </head>
 
-  <body class="text-center">
+  <body class="bg-dark">
     <!-- SIGNIN -->
-    <main class="form-signin">
-      <form>
-        <img
-          class="mb-4"
-          src="../assets/brand/bootstrap-logo.svg"
-          alt=""
-          width="72"
-          height="57"
-        />
-        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-        <div class="form-floating">
+    <div class="row align-items-center justify-content-center m-4">
+      <form class="col-sm-6 col-md-6 bg-white p-4 rounded-3">
+        <h2>Sign Up</h2>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
           <input
             type="email"
             class="form-control"
-            id="floatingInput"
-            placeholder="name@example.com"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="youremail@example.com"
           />
-          <label for="floatingInput">Email address</label>
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
         </div>
-        <div class="form-floating">
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
           <input
             type="password"
             class="form-control"
-            id="floatingPassword"
-            placeholder="Password"
+            id="exampleInputPassword1"
+            placeholder="password"
           />
-          <label for="floatingPassword">Password</label>
         </div>
 
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me" /> Remember me
-          </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">
-          Sign in
-        </button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-    </main>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
